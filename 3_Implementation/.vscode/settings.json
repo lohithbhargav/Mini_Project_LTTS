@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "patterns.h": "c",
+        "unity.h": "c"
+    }
+}

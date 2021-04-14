@@ -201,7 +201,7 @@ void hollow_inverted_mirrored_right_triangle_star_pattern(){
 }
 
 void hollow_inverted_right_triangle_star_pattern(){
-    int n,m=1;  
+    int n;  
     printf("Enter the number of rows :");  
     scanf("%d",&n);  
     for(int i=n;i>=1;i--)  

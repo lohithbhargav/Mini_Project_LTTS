@@ -1,0 +1,1 @@
+Fixed Markdown parsing issues in build documentation for Windows

@@ -18,8 +18,23 @@
 
 /**
  * @brief square star pattern with user input size
+ * Test case 1
+ * @param n 
+ * @return int 
  */
-int square_star_pattern();
+int square_star(int n);
+/**
+ * @brief rhombus star pattern with user input size
+ * Test case 2
+ * @param n 
+ * @return int 
+ */
+int rhombus_star(int n);
+
+/**
+ * @brief square star pattern with user input size
+ */
+void square_star_pattern();
 /**
  * @brief hollow square star pattern with diagonal with user input size
  */
@@ -27,7 +42,7 @@ void hollow_square_star_pattern_with_diagonal();
 /**
  * @brief rhombus star pattern with user input size
  */
-int rhombus_star_pattern();
+void rhombus_star_pattern();
 /**
  * @brief hollow rhombus star pattern with user input size
  */

@@ -5,21 +5,56 @@
 
 //#include "unity\unity.h"
 
-int square_star_pattern(){
-    int n,flag=0;  
+// For Testing Propose these 2 are created
+
+int square_star(int n){
+    int flag=0;    
+    for(int i=0;i<n;i++)  
+    {  
+        for(int j=0;j<n;j++)  
+        {  
+            //printf("*");
+            flag=1;  
+        }  
+        //printf("\n");  
+    } 
+    return flag; 
+}
+
+int rhombus_star(int n){
+     int flag=0;    
+    for(int i=n;i>=1;i--)  
+    {  
+        for(int j=1;j<=i-1;j++)  
+        {  
+            //printf(" ");  
+        }  
+        flag=1;
+        for(int k=1;k<=n;k++)  
+        {  
+            //printf("*");  
+        }  
+        //printf("\n");  
+    }  
+    return flag;
+}
+
+// These are the main funtional logic's
+
+void square_star_pattern(){
+    int n;  
     printf("Enter the number of rows :");  
     scanf("%d",&n);  
     for(int i=0;i<n;i++)  
     {  
         for(int j=0;j<n;j++)  
         {  
-            printf("*");
-            flag=1;  
+            printf("*"); 
         }  
         printf("\n");  
     } 
-    return flag; 
 }
+
 
 void hollow_square_star_pattern_with_diagonal(){
     int n;  
@@ -44,8 +79,8 @@ void hollow_square_star_pattern_with_diagonal(){
     }  
 }
 
-int rhombus_star_pattern(){
-     int n,flag=0;  
+void rhombus_star_pattern(){
+     int n;  
     printf("Enter the number of rows :");  
     scanf("%d",&n);  
     for(int i=n;i>=1;i--)  
@@ -54,14 +89,12 @@ int rhombus_star_pattern(){
         {  
             printf(" ");  
         }  
-        flag=1;
         for(int k=1;k<=n;k++)  
         {  
             printf("*");  
         }  
         printf("\n");  
     }  
-    return flag;
 }
 
 void hollow_rhombus_star_pattern(){

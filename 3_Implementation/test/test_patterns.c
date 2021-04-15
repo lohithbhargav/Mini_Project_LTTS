@@ -7,8 +7,8 @@
 #define PROJECT_NAME "pattern application"
 
 /* Prototypes for some of test functions as there are so many */
-void test_square_star_pattern();
-void test_rhombus_star_pattern();
+void test_square_star();
+void test_rhombus_star();
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -22,26 +22,26 @@ int main()
   UNITY_BEGIN();
 
 /* Run Test functions */
-  RUN_TEST(test_square_star_pattern);
-  RUN_TEST(test_rhombus_star_pattern);
+  RUN_TEST(test_square_star);
+  RUN_TEST(test_rhombus_star);
 
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
 
 /* Write all the test functions */ 
-void test_square_star_pattern() {
-  TEST_ASSERT_EQUAL(1, 1);
+void test_square_star() {
+  TEST_ASSERT_EQUAL(1, square_star(1));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(1, 1);
+  TEST_ASSERT_EQUAL(1, square_star(2));
 }
 
-void test_rhombus_star_pattern() {
-  TEST_ASSERT_EQUAL(1, 1);
+void test_rhombus_star() {
+  TEST_ASSERT_EQUAL(1, rhombus_star(2));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(1, 1);
+  TEST_ASSERT_EQUAL(1, rhombus_star(3));
 }
 
 

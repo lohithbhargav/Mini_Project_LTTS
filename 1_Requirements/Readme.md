@@ -39,8 +39,10 @@
  This project was implemented using multi file programmming in C. 
 
 # Detail requirements
+
 ## High Level Requirements:
 | ID | Description | Category |Status |
+|----|-------------|----------|-------|
 | HR_01 | The User Inputs to Choose the pattern | Technical | Implemented |
 | HR_02 | Avaiability of Patterns as Memu | Technical | Implemented |
 | HR_03 | Execution of Pattern with Given Input | Technical | Implemented |
@@ -48,6 +50,7 @@
 
 ##  Low level Requirements:
 | ID | Description | HLR ID | Category | Status |
+|----|-------------|--------|----------|--------|
 | LR_01 | A Welcome note to the user and reading the user input and vaildating them w.r.t code for Switch Condition | HR_01 | Technical | Implemented |
 | LR_02 | The Patterns list in the console after the welcome note the available patterns are | HR_02  | Technical | Implemented |
 | LR_03 | The Patterns listed in the memu has to be in the backend for the execution w.r.t given input as dynmaic code | HR_02  | Technical | Implemented |

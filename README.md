@@ -7,14 +7,16 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
 [![Code Quality - Static Code - Cppcheck](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2216fde6599044959ec1d33f1cd00fed)](https://www.codacy.com/gh/lohithbhargav/Mini_Project_LTTS/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lohithbhargav/Mini_Project_LTTS&amp;utm_campaign=Badge_Grade) [![Code Quality - Static Code - Cppcheck](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml) | [![Contribution Check - Git Inspector](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gitinspector.yml)
 
-
+<!--lint disable no-duplicate-headings-->
 ### Github actions used
+
 - Build using make CI
 - Static code analysis using CPP
 - Dynamic Code analysis using Codacy
 - Unit testing using Unity
 - Contribution Check using Git Inspector
 
+<!--lint disable no-duplicate-headings-->
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
@@ -26,23 +28,25 @@ Folder             | Description
 `6_ImagesAndVideos`| Images & Videos of the project if there are needed
 `7_Other`          | Other like Resources and Platforms Used  
 
+<!--lint disable no-duplicate-headings-->
 ## Contributors List and Summary
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
 
-
+<!--lint disable no-duplicate-headings-->
 ## Challenges Faced and How Was It Overcome
 1. Implementation using Multi File & Multifile Programming. With alot of experiementation in various ways successfully done.
 2. Github Actions like Unity and build.
 3. Unit Testing in Implementation. 
 4. As Application was static there are no privileged like Admin & Manager, It was a open-source so any one can contribute. By git pull the updates will be reflected in application.
 
+<!--lint disable no-duplicate-headings-->
 ## Learning Resources
 1. [Patterns Reference](https://www.javatpoint.com/star-program-in-c)
 2. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 3. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-4. [git inspector](https://github.com/ejwa/gitinspector.git)
-5. [github workflow](https://docs.github.com/en/actions/learn-github-action) 
+4. [git_inspector](https://github.com/ejwa/gitinspector.git)
+5. [github_workflow](https://docs.github.com/en/actions/learn-github-action) 
 

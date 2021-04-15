@@ -9,14 +9,17 @@
 /* Start of the application */
 int main()
 {
-    printf("\n****\t Welcome to the Patterns World\t****\n");
+    printf("**********************************************");
+    printf("\n*****\tWelcome to the Patterns World\t*****\n");
+    printf("**********************************************");
     int flag=0;
     while(flag==0)
     {
     int choice;
     printf("\nAvailable Patterns are:");
     printf("\n1. Square Star Pattern\n2. Hollow Square Star Pattern with Diagonal\n3. Rhombus Star Pattern\n4. Hollow Rhombus Star Pattern\n5. Mirrored Rhombus Star Pattern\n6. Hollow Mirrored Rhombus Star Pattern\n7. Right Triangle Star Pattern\n8. Mirrored Right Triangle Star Pattern\n9. Hollow Right Triangle Star Pattern\n10. Hollow Inverted Mirrored Right Triangle Star Pattern\n11. Hollow Inverted Right Triangle Star Pattern\n12. Inverted Right Triangle Star Pattern\n13. Inverted Mirrored Right Triangle Star Pattern\n14. Hollow Square Star Pattern\n15. Pyramid Star Pattern\n16. Hollow Pyramid Star Pattern\n17. Inverted Pyramid Star Pattern\n18. Right Arrow Star Pattern\n19. Half Diamond Star Pattern\n20. Left Arrow Star Pattern\n21. Plus Star Pattern\n22. Diamond Star Pattern\n23. X Star Pattern\n24. Exit");
-    printf("\n\tEnter your choice\n");
+    printf("\n\n Note : Size of Pattern Should be Greater Than 0 \n\n");
+    printf("\n\tEnter which pattern you needed or Exit :\n");
    
     scanf("%d", &choice);
     switch(choice)

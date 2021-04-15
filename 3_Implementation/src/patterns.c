@@ -43,7 +43,7 @@ int rhombus_star(int n){
 
 void square_star_pattern(){
     int n;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     for(int i=0;i<n;i++)  
     {  
@@ -58,7 +58,7 @@ void square_star_pattern(){
 
 void hollow_square_star_pattern_with_diagonal(){
     int n;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     for(int i=1;i<=n;i++)  
     {  
@@ -81,7 +81,7 @@ void hollow_square_star_pattern_with_diagonal(){
 
 void rhombus_star_pattern(){
      int n;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     for(int i=n;i>=1;i--)  
     {  
@@ -99,7 +99,7 @@ void rhombus_star_pattern(){
 
 void hollow_rhombus_star_pattern(){
     int n;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     for(int i=n;i>=1;i--)  
     {  
@@ -120,7 +120,7 @@ void hollow_rhombus_star_pattern(){
 
 void mirrored_rhombus_star_pattern(){
     int n;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     for(int i=1;i<=n;i++)  
     {  
@@ -139,7 +139,7 @@ void mirrored_rhombus_star_pattern(){
 
 void hollow_mirrored_rhombus_star_pattern(){
     int n;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     for(int i=1;i<=n;i++)  
     {  
@@ -160,7 +160,7 @@ void hollow_mirrored_rhombus_star_pattern(){
 
 void right_triangle_star_pattern(){
     int n;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     for(int i=1;i<=n;i++)  
     {  
@@ -174,7 +174,7 @@ void right_triangle_star_pattern(){
 
 void mirrored_right_triangle_star_pattern(){
     int n,m=1;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     for(int i=n;i>=1;i--)  
     {  
@@ -193,7 +193,7 @@ void mirrored_right_triangle_star_pattern(){
 
 void hollow_right_triangle_star_pattern(){
     int n;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     for(int i=1;i<=n;i++)  
     {  
@@ -213,7 +213,7 @@ void hollow_right_triangle_star_pattern(){
 
 void hollow_inverted_mirrored_right_triangle_star_pattern(){
     int n,m;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     m=n;  
    for(int i=1;i<=n;i++)  
@@ -237,7 +237,7 @@ void hollow_inverted_mirrored_right_triangle_star_pattern(){
 
 void hollow_inverted_right_triangle_star_pattern(){
     int n;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     for(int i=n;i>=1;i--)  
     {  
@@ -254,7 +254,7 @@ void hollow_inverted_right_triangle_star_pattern(){
 
 void inverted_right_triangle_star_pattern(){
     int n;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     for(int i=n;i>=1;i--)  
     {  
@@ -268,7 +268,7 @@ void inverted_right_triangle_star_pattern(){
 
 void inverted_mirrored_right_triangle_star_pattern(){
     int n,m;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     m=n;  
    for(int i=1;i<=n;i++)  
@@ -289,7 +289,7 @@ void inverted_mirrored_right_triangle_star_pattern(){
 
 void hollow_square_star_pattern(){
     int n;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     for(int i=1;i<=n;i++)  
     {  
@@ -308,7 +308,7 @@ void hollow_square_star_pattern(){
 
 void pyramid_star_pattern(){
     int n,m;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     m=n;  
    for(int i=1;i<=n;i++)  
@@ -329,7 +329,7 @@ void pyramid_star_pattern(){
 
 void hollow_pyramid_star_pattern(){
     int n,m;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
     m=n;  
    for(int i=1;i<=n;i++)  
@@ -353,7 +353,7 @@ void hollow_pyramid_star_pattern(){
 
 void inverted_pyramid_star_pattern(){
     int n,m=1;  
-    printf("Enter the number of rows :");  
+    printf("Enter the number of rows :\n");  
     scanf("%d",&n);  
   
    for(int i=n;i>=1;i--)  
@@ -374,7 +374,7 @@ void inverted_pyramid_star_pattern(){
 
 void right_arrow_star_pattern(){
     int n;  
-  printf("Enter the number of columns :");  
+  printf("Enter the number of columns :\n");  
   scanf("%d",&n);  
   //printing the upper part of the pattern..  
  for(int i=0;i<n;i++)  
@@ -405,7 +405,7 @@ for(int i=1;i<n;i++)
 
 void half_diamond_star_pattern(){
     int n,m=1;  
-    printf("Enter the number of columns :");  
+    printf("Enter the number of columns :\n");  
     scanf("%d",&n);  
 for(int i=1;i<=n;i++)  
 {  
@@ -427,7 +427,7 @@ for(int i=1;i<=n;i++)
 
 void left_arrow_star_pattern(){
     int n;  
-  printf("Enter the number of columns :");  
+  printf("Enter the number of columns :\n");  
   scanf("%d",&n);   
  for(int i=1;i<=n;i++)  
  {  
@@ -457,7 +457,7 @@ for(int i=1;i<n;i++)
 
 void plus_star_pattern(){
     int n;  
-  printf("Enter the odd number only :");  
+  printf("Enter the odd number only :\n");  
   scanf("%d", &n);  
   for(int i=1;i<=n;i++)  
   {  
@@ -483,7 +483,7 @@ void plus_star_pattern(){
 
 void diamond_star_pattern(){
     int n;  
-  printf("Enter the number of rows :\n");  
+  printf("Enter the number of rows :\n\n");  
   scanf("%d",&n);  
   int spaces=n-1;  
   int stars=1;  
@@ -513,7 +513,7 @@ void diamond_star_pattern(){
 
 void x_star_pattern(){
     int n,m;  
-  printf("Enter the number :");  
+  printf("Enter the number :\n");  
   scanf("%d",&n);  
   m=2*n-1;  
   for(int i=1;i<=m;i++)  

@@ -47,6 +47,6 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 1. [Patterns Reference](https://www.javatpoint.com/star-program-in-c)
 2. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 3. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-4. [git_inspector](https://github.com/ejwa/gitinspector.git)
-5. [github_workflow](https://docs.github.com/en/actions/learn-github-action) 
+4. [git inspector](https://github.com/ejwa/gitinspector.git)
+5. [github workflow](https://docs.github.com/en/actions/learn-github-action) 
 

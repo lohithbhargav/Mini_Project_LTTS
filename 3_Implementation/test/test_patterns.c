@@ -30,7 +30,7 @@ int main()
 }
 
 /* Write all the test functions */ 
-void test_square_star_patter() {
+void test_square_star_pattern() {
   TEST_ASSERT_EQUAL(1, square_star_pattern());
   
   /* Dummy fail*/

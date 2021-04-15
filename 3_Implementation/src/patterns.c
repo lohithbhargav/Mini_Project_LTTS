@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <unity.h>
+//#include "unity\unity.h"
 
 int square_star_pattern(){
     int n,flag=0;  

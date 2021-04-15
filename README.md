@@ -4,10 +4,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-
-| 
-[![Code Quality - Static Code - Cppcheck](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml)
-|
+[![Code Quality - Static Code - Cppcheck](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml)
 |
 [![Contribution Check - Git Inspector](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gitinspector.yml)
 

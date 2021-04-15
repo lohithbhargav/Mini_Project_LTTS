@@ -1,2 +1,2 @@
-@mainpage All Patterns Application by D_Lohith_Bhargav_260839
+@mainpage All Patterns Application by D. Lohith Bhargav 260839
 @subpage pattern.h

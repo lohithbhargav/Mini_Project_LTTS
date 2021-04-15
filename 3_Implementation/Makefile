@@ -5,7 +5,7 @@ PROJECT_NAME = Patterns
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
+SRC = project.c\
 src/patterns.c
 
 # All test source files
@@ -13,7 +13,7 @@ TEST_SRC = src/patterns.c\
 test/test_patterns.c\
 unity/unity.c\
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
 
 # All include folders with header files
 INC	= -Iinc\
@@ -51,6 +51,9 @@ test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
 	./$(TEST_OUTPUT)
 
+# gcc unity/unity.c src/patterns.c test/test_patterns.c project.c -Iunity -Iinc -Itest -o Testing.exe 
+# gcc -I unity unity/unity.c src/patterns.c test/test_patterns.c inc/pattern.h project.c -o Testing.exe
+
 # Remove all the built files, invoke by `make clean`
 clean:
 	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
@@ -72,9 +75,9 @@ $(BUILD):
 
 #create: $(SRC)
 #	gcc -I INC_h $(SRC) -o output.exe
-	
+
 #run: $(PROJECT_NAME)
 #	$(PROJECT_NAME)
-	
+
 #clean:
 #	del /q *.exe

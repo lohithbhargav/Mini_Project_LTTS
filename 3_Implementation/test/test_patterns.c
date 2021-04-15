@@ -1,6 +1,6 @@
 #include "unity.h"
-
-#include "inc\pattern.h"
+#include "unity_internals.h"
+#include "pattern.h"
 
 #include <stdio.h>
 
@@ -31,10 +31,10 @@ int main()
 
 /* Write all the test functions */ 
 void test_square_star_patter() {
-  TEST_ASSERT_EQUAL(1, square_star_patter());
+  TEST_ASSERT_EQUAL(1, square_star_pattern());
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(1, square_star_patter());
+  TEST_ASSERT_EQUAL(1, square_star_pattern());
 }
 
 void test_rhombus_star_pattern() {

@@ -19,7 +19,7 @@
  A Simple Pattern Application Where different Patterns are available, the user can choose a pattern and size of pattern which will be printed. This Application runs continues until the user want to terminate it.
 
 ## SWOT ANALYSIS
-![SWOT](SWOT.PNG)
+![SWOT](https://github.com/lohithbhargav/Mini_Project_LTTS/blob/main/1_Requirements/SWOT.png)
 
 # 4W&#39;s and 1&#39;H
 
@@ -40,16 +40,16 @@
 
 # Detail requirements
 ## High Level Requirements:
--- ID | Description | Category |Status
-HR_01 | The User Inputs to Choose the pattern | Technical | Implemented
-HR_02 | Avaiability of Patterns as Memu | Technical | Implemented
-HR_03 | Execution of Pattern with Given Input | Technical | Implemented
-HR_04 | Termination of Application when user wants to Quit | Technical | Implemented
+| ID | Description | Category |Status |
+| HR_01 | The User Inputs to Choose the pattern | Technical | Implemented |
+| HR_02 | Avaiability of Patterns as Memu | Technical | Implemented |
+| HR_03 | Execution of Pattern with Given Input | Technical | Implemented |
+| HR_04 | Termination of Application when user wants to Quit | Technical | Implemented |
 
 ##  Low level Requirements:
--- ID | Description | HLR ID | Category | Status
-LR_01 | A Welcome note to the user and reading the user input and vaildating them w.r.t code for Switch Condition | HR_01 | Technical | Implemented
-LR_02 | The Patterns list in the console after the welcome note the available patterns are | HR_02  | Technical | Implemented
-LR_03 | The Patterns listed in the memu has to be in the backend for the execution w.r.t given input as dynmaic code | HR_02  | Technical | Implemented
-LR_04 | A Proper Execution of the selected pattern by the user & size of pattern with clean display in console | HR_03 | Technical | Implemented
-LR_05 | Termiantion of the Application when user want to Quit As iteration of code is Infinity times | HR_04 | Technical | Implemented
+| ID | Description | HLR ID | Category | Status |
+| LR_01 | A Welcome note to the user and reading the user input and vaildating them w.r.t code for Switch Condition | HR_01 | Technical | Implemented |
+| LR_02 | The Patterns list in the console after the welcome note the available patterns are | HR_02  | Technical | Implemented |
+| LR_03 | The Patterns listed in the memu has to be in the backend for the execution w.r.t given input as dynmaic code | HR_02  | Technical | Implemented |
+| LR_04 | A Proper Execution of the selected pattern by the user & size of pattern with clean display in console | HR_03 | Technical | Implemented |
+| LR_05 | Termiantion of the Application when user want to Quit As iteration of code is Infinity times | HR_04 | Technical | Implemented |

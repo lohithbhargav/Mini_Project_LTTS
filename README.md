@@ -7,14 +7,7 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
 [![Code Quality - Static Code - Cppcheck](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2216fde6599044959ec1d33f1cd00fed)](https://www.codacy.com/gh/lohithbhargav/Mini_Project_LTTS/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lohithbhargav/Mini_Project_LTTS&amp;utm_campaign=Badge_Grade) [![Code Quality - Static Code - Cppcheck](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml) | [![Contribution Check - Git Inspector](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gitinspector.yml)
 
-<!--lint disable no-duplicate-headings-->
-### Github actions used
 
-- Build using make CI
-- Static code analysis using CPP
-- Dynamic Code analysis using Codacy
-- Unit testing using Unity
-- Contribution Check using Git Inspector
 
 <!--lint disable no-duplicate-headings-->
 ## Folder Structure
@@ -31,9 +24,9 @@ Folder             | Description
 <!--lint disable no-duplicate-headings-->
 ## Contributors List and Summary
 
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
--------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
+SF ID  |  Name   
+-------|---------
+260839 | Doppalapudi Lohith Bhargav     
 
 <!--lint disable no-duplicate-headings-->
 ## Challenges Faced and How Was It Overcome

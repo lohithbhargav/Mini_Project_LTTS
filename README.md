@@ -1,10 +1,9 @@
 # SDLC Activity Based Learning Project
 
-
 ## Github actions
 Build | Code Quality | Unity | [Git Inspector]
 ------|----------|-------|--------------
-[![C/C++ CI - Build Status](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/c-cpp.yml) | [![CI-Coverage](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gcov.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gcov.yml) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2216fde6599044959ec1d33f1cd00fed)](https://www.codacy.com/gh/lohithbhargav/Mini_Project_LTTS/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lohithbhargav/Mini_Project_LTTS&amp;utm_campaign=Badge_Grade) [![Code Quality - Static Code - Cppcheck](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml) [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/code_quality_dyanamic.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/code_quality_dyanamic.yml) | [![Unit Testing - Unity](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/unity.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/unity.yml) | [![Contribution Check - Git Inspector](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gitinspector.yml)
+[![C/C++ CI - Build Status](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/c-cpp.yml)|[![CI-Coverage](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gcov.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gcov.yml)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2216fde6599044959ec1d33f1cd00fed)](https://www.codacy.com/gh/lohithbhargav/Mini_Project_LTTS/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lohithbhargav/Mini_Project_LTTS&amp;utm_campaign=Badge_Grade)[![Code Quality - Static Code - Cppcheck](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/cppcheck.yml)[![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/code_quality_dyanamic.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/code_quality_dyanamic.yml)|[![Unit Testing - Unity](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/unity.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/unity.yml)|[![Contribution Check - Git Inspector](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/lohithbhargav/Mini_Project_LTTS/actions/workflows/gitinspector.yml)
 
 
 
@@ -30,8 +29,8 @@ SF ID  |  Name
 <!--lint disable no-duplicate-headings-->
 ### Challenges Faced and How Was It Overcome
 1. Implementation using Multi File & Multifile Programming. With alot of experiementation in various ways successfully done.
-2. Github Actions like Unity and build.
-3. Unit Testing in Implementation. 
+2. Github Actions like Unity and build. Successfully After a lot of research and from peer helps.
+3. Unit Testing in Implementation. Successfully passed the testcase by peer helps.
 4. As Application was static there are no privileged like Admin & Manager, It was a open-source so any one can contribute. By git pull the updates will be reflected in application.
 
 <!--lint disable no-duplicate-headings-->

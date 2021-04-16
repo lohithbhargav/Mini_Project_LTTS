@@ -8,7 +8,7 @@
 |  HR_02       | Avaiability of Patterns as Memu | Pattern Memu List | Passed | Passed | Technical based |
 |  HR_03       | Execution of Pattern with Given Input |  Passed | Passed | Passed | Boundary based |
 |  HR_04       | Termination of Application when user wants to Quit |  Passed | Passed | Passed | Termination based |
-< Size of the pattern should be greater than 0 >
+
 
 ## Table no: Low level test plan
 

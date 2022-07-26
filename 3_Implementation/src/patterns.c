@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 //#include "unity\unity.h"
-Lohith Bhargav had written this code
+
 // For Testing Propose these 2 are created
 
 int square_star(int n){
